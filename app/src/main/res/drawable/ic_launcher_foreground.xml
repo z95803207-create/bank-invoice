@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Ledger Book Base -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M30,26h42c4.4,0 8,3.6 8,8v44c0,4.4 -3.6,8 -8,8h-42c-4.4,0 -8,-3.6 -8,-8V34C22,29.6 25.6,26 30,26z" />
+    <!-- Book inner sheet -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,30h38c2.2,0 4,1.8 4,4v40c0,2.2 -1.8,4 -4,4h-38c-2.2,0 -4,-1.8 -4,-4V34C30,31.8 31.8,30 34,30z" />
+    <!-- Ledger header bar -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M34,30h38c2.2,0 4,1.8 4,4v8h-46v-8C30,31.8 31.8,30 34,30z" />
+    <!-- Balance Scale Pillar -->
+    <path
+        android:fillColor="#0369A1"
+        android:pathData="M52,44h4v26h-4z" />
+    <!-- Balance Scale Beam -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M38,46h32v3h-32z" />
+    <!-- Balance Scale Base -->
+    <path
+        android:fillColor="#0369A1"
+        android:pathData="M46,70h16v3h-16z" />
+    <!-- Left Pan -->
+    <path
+        android:fillColor="#0EA5E9"
+        android:pathData="M40,49l-5,10h10z" />
+    <!-- Right Pan -->
+    <path
+        android:fillColor="#0EA5E9"
+        android:pathData="M68,49l-5,10h10z" />
+</vector>

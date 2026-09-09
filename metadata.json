@@ -1,0 +1,6 @@
+{
+  "name": "Accounting",
+  "description": "Technical-test Accounting application featuring 4-level Chart of Accounts, CP Vouchers, Ledger, Transaction Register, and Trial Balance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
