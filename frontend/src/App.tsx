@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AccountingProvider } from './context/AccountingContext';
 import { Navbar } from './components/Navbar';
 import { Sidebar } from './components/Sidebar';
+import { MobileBottomNav } from './components/MobileBottomNav';
 import { AlertBanner } from './components/AlertBanner';
 import { Dashboard } from './pages/Dashboard';
 import { ChartOfAccounts } from './pages/ChartOfAccounts';
@@ -20,7 +21,7 @@ export const App: React.FC = () => {
           <Navbar />
           <div className="flex flex-1">
             <Sidebar />
-            <main className="flex-1 p-6 md:p-8 max-w-7xl mx-auto w-full">
+            <main className="flex-1 p-3.5 sm:p-6 md:p-8 pb-24 md:pb-8 max-w-7xl mx-auto w-full">
               <Routes>
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/accounts" element={<ChartOfAccounts />} />
@@ -33,6 +34,7 @@ export const App: React.FC = () => {
             </main>
           </div>
           <AlertBanner />
+          <MobileBottomNav />
         </div>
       </BrowserRouter>
     </AccountingProvider>

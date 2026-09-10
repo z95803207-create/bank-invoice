@@ -22,7 +22,7 @@ const navItems = [
 
 export const Sidebar: React.FC = () => {
   return (
-    <aside className="w-64 bg-white border-r border-gray-200 min-h-[calc(100vh-4rem)] p-4 flex flex-col justify-between shrink-0">
+    <aside className="hidden md:flex w-64 bg-white border-r border-gray-200 min-h-[calc(100vh-4rem)] p-4 flex-col justify-between shrink-0">
       <nav className="space-y-1.5">
         <div className="px-3 py-2 text-xs font-semibold text-gray-400 uppercase tracking-wider">
           Financial Navigation
